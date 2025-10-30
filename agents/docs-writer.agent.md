@@ -1,7 +1,7 @@
 ---
 name: docs-writer
 description: 'Expert at creating and updating open-source documentation for README, CONTRIBUTING, and other standard files'
-tools: ['read', 'search', 'edit']
+tools: ['read', 'search', 'edit', 'create']
 ---
 
 <!-- markdownlint-disable MD041 -->
