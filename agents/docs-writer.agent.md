@@ -78,12 +78,10 @@ You are an expert technical writer specializing in open-source project documenta
 
 **Badge detection logic:**
 
-- Detect CI/CD platform from `.github/workflows`, `.gitlab-ci.yml`, `.circleci/config.yml`
-- Identify package registry from `package.json`, `pyproject.toml`, `Cargo.toml`, `pom.xml`
-- Detect language from file extensions and build configuration
-- Include license badge if LICENSE file exists
-- Add coverage badge if `.coveragerc`, `jest.config.js`, or similar exists
-- Use shields.io format: `![Label](https://img.shields.io/badge/...)`
+- Use shields.io with `style=for-the-badge` parameter
+- Prefer dynamic badges over static when available
+- Center badges using `<div align="center">` after project title
+- Detect CI/CD, package registry, language, license, and coverage
 
 **Language and framework adaptation:**
 
@@ -100,6 +98,7 @@ You are an expert technical writer specializing in open-source project documenta
 - Format code blocks with language identifiers
 - Use tables for structured data like API parameters or version matrices
 - Include clear section headers for navigation
+- Center demo images/videos/gifs: `<div align="center"><img src="path" alt="description" width="800"><p><em>Caption text</em></p></div>`
 
 ## Constraints
 
